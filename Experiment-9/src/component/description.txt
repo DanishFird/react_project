@@ -1,0 +1,44 @@
+1. Software Used
+
+➤ React.js – to build the user interface
+➤ VS Code / Bytexl – for writing and running the code
+➤ CSS – for styling components
+➤ Browser (Chrome/Edge/Firefox) – to view the output
+
+2. Key Steps and Implementation
+
+# Base Component – Person
+➤ Shows the common details: Name and Age
+➤ Designed to be reusable for other components
+
+# Student Component
+➤ Uses Person to display name and age
+➤ Adds Course for the student’s field of study
+➤ Demonstrates component composition
+
+# Teacher Component
+➤ Uses Person to display name and age
+➤ Adds Subject to indicate the teacher’s subject
+➤ Highlights code reuse and modularity
+
+# Main Component – App
+➤ Renders the Student and Teacher components
+➤ Demonstrates hierarchical structure: App → Student/Teacher → Person
+➤ Organizes the display with headings and layout
+
+# Props for Dynamic Data
+➤ Parent components pass name, age, course, subject via props
+➤ Enables dynamic and flexible content rendering
+
+# Styling (index.css & App.css)
+
+➤ Global styles: font, margin, padding
+➤ Component-specific styling: layout, spacing, visual effects
+➤ Ensures clean, readable, and appealing UI
+
+3.  Learning Outcomes
+➤ Understood React component hierarchy and composition
+➤ Practiced passing data via props
+➤ Learned component reuse and modular design
+➤ Gained experience in structuring and styling components
+➤ Learned deploying React apps on online platforms
